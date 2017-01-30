@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import os
 
-url = ['http://www.imdb.com/title/tt3749900/episodes?ref_=tt_ov_epl','http://www.imdb.com/title/tt3107288/episodes?ref_=tt_ov_epl','http://www.imdb.com/title/tt2193021/episodes?ref_=tt_ov_epl','http://www.imdb.com/title/tt2364582/episodes?ref_=tt_ov_epl','http://www.imdb.com/title/tt4532368/episodes','http://www.imdb.com/title/tt1520211/episodes','http://www.imdb.com/title/tt4016454/episodes?season=2&ref_=tt_eps_sn_2','http://www.imdb.com/title/tt2306299/episodes?season=4&ref_=tt_eps_sn_4']
+url = ['http://www.imdb.com/title/tt2306299/episodes?season=4&ref_=tt_eps_sn_4']
 
 for i in url:
 	print('\n')
